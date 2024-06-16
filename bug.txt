@@ -1,0 +1,23 @@
+
+2024-06-15  运行一直保报错：No module named 'ttkbootstrap.constants'    原因：python版本需要>=3.7
+
+
+kubectl get pod -n -owide这个命令的输出通常包括以下几列：
+
+NAME：Pod的名称。
+
+READY：Pod内的容器是否准备就绪及其数量。
+
+STATUS：Pod的总体状态。
+
+RESTARTS：Pod内的容器重启次数总和。
+
+AGE：Pod运行的时间。
+
+IP：Pod的IP地址。
+
+NODE：运行Pod的节点名称。
+
+NOMINATED NODE：被提名用于运行Pod的节点名称，通常为空。
+
+READINESS GATES：Pod是否通过就绪检查。
