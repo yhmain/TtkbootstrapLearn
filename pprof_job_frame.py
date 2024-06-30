@@ -95,7 +95,7 @@ class PprofJob(ttk.Frame):
             highlightbackground=style.colors.border,
             highlightthickness=1
         )
-        self.textbox.pack(fill=BOTH)
+        self.textbox.pack(fill=BOTH, expand=YES)
         self.textbox.insert(END, self.md_str)
 
         last_row = ttk.Frame(self.top)
