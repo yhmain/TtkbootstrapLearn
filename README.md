@@ -1,2 +1,3 @@
 # TtkbootstrapLearn
-学习python的GUI框架
+学习python的GUI库--ttkbootstrap
+
